@@ -37,15 +37,15 @@ module.exports = {
     nav: [
       {
         text: '🧠ZGD',
-        link: 'zgd',
+        link: '/zgd',
       },
       {
         text: '🎯Leitfaden',
-        link: 'guide/',
+        link: '/guide/',
       },
       {
         text: '🕯️Mitmachen',
-        link: 'join/'
+        link: '/join/'
       },
       {
         text: '🪙Wallet',
@@ -53,18 +53,18 @@ module.exports = {
       }
     ],
     sidebar: {
-      'guide': 'true',
-      'contact': 'true',
-      'impress': 'true',
-      'gradido-academy': 'true',
-      'zgd': [
+      '/guide': 'true',
+      '/contact': 'true',
+      '/impress': 'true',
+      '/gradido-academy': 'true',
+      '/zgd': [
         {
           title: '',
           collapsable: false,
           children: [
-              ['zgd', '🧠ZGD'],
-              ['guide/', '🎯Leitfaden'],
-              ['join/', '🕯️Mitmachen'],
+              ['/zgd', '🧠ZGD'],
+              ['/guide/', '🎯Leitfaden'],
+              ['/join/', '🕯️Mitmachen']
           ]
         },
         {
@@ -72,7 +72,7 @@ module.exports = {
           collapsable: false,
           sidebarDepth: 0,
           children: [
-              ['https://gdd.gradido.net', '🪙Wallet'],
+              ['https://gdd.gradido.net', '🪙Wallet']
           ]
         },
         {
@@ -80,14 +80,14 @@ module.exports = {
           collapsable: false,
           children: [
             ['https://github.com/gradido/gradido', 'Gradido Software'],
-            ['https://github.com/gradido/gradido/issues', 'Fehlermeldung'],
+            ['https://github.com/gradido/gradido/issues', 'Fehlermeldung']
           ]
         },
         {
           title: '',
           collapsable: false,
           children: [
-            ['gradido-academy','✨Gradido Academy'],            
+            ['/gradido-academy','✨Gradido Academy']         
             //['/extras/contributing', 'Contributing ✨'],
             //['/extras/license', 'License 📚']
           ]
@@ -96,8 +96,8 @@ module.exports = {
           title: '',
           collapsable: false,
           children: [
-              ['contact', 'Kontakt'],
-              ['impress', 'Impressum'],
+              ['/contact', 'Kontakt'],
+              ['/impress', 'Impressum']
           ]
         },
       ],
