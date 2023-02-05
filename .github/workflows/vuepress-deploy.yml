@@ -19,4 +19,4 @@ jobs:
         TARGET_REPO: ZGD-Dresden/zgd-dresden-website
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/src/.vuepress/dist
+        BUILD_DIR: docs/.vuepress/dist
